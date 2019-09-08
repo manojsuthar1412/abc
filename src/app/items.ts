@@ -16,29 +16,29 @@ export const Items = [
     {
         id: 3,
         img: '../assets/contentFul/flutterLCO.png',
-        name: 'Django',
-        des: 'Create 8 Projects in Django',
+        name: 'Flutter course',
+        des: 'A course on Flutter',
         price: 199
     },
     {
         id: 4,
         img: '../assets/contentFul/git.png',
-        name: 'Django',
-        des: 'Create 8 Projects in Django',
+        name: 'Git course',
+        des: 'A course on git',
         price: 199
     },
     {
-        id: 4,
-        img: '../assets/contentFul/git.png',
-        name: 'Django',
-        des: 'Create 8 Projects in Django',
+        id: 5,
+        img: '../assets/contentFul/RN.png',
+        name: 'React Native',
+        des: 'Build Mobile apps',
         price: 199
     },
     {
-        id: 4,
-        img: '../assets/contentFul/git.png',
-        name: 'Django',
-        des: 'Create 8 Projects in Django',
+        id: 6,
+        img: '../assets/contentFul/frontend.png',
+        name: 'Front End',
+        des: 'A course on front end development',
         price: 199
     },
 ]
