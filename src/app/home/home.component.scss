@@ -1,0 +1,18 @@
+.bg-image {
+    background-image: url(../../assets/bg.png);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+.title {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-warning {
+    padding: 8px 35px;
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACb,UAAU,EAAE,0BAA0B;EACtC,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,cAAc,EAAE,MAAM;CACvB;;AAED,AAAA,YAAY,CAAC;EACX,OAAO,EAAE,QAAQ;CAClB;;AAED,AAAA,iBAAiB,CAAC;EAChB,mBAAmB,EAAE,aAAa;EAClC,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,cAAc,EAAE,MAAM;CACvB",
+    "sources": [
+        "hero-section.component.scss"
+    ],
+    "names": [],
+    "file": "hero-section.component.css"
+}

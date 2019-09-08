@@ -1,0 +1,37 @@
+<app-hero-section [backClass]='className' [heading]='heroTitle' [subHeading]='subTitle' [imgUrl]='imgUrl'></app-hero-section>
+<app-reuseable [title]="about"></app-reuseable>
+<app-reuseable [title]="products"></app-reuseable>
+
+<h1 class="display-3 text-center">Courses</h1>
+<div class="container">
+    <div class="row justify-content-md-around">
+        <div *ngFor="let item of Items">
+            <div class="col-12 col-md-12 d-flex my-3">
+                
+                <img src={{item.img}} alt="course image goes here.." width="200" height="120">
+
+                <div class="flex-grow-1 pl-3">
+                    <div class="d-flex justify-content-sm-between">
+                        <h6 class="mb-0">{{item.name}}</h6>
+                        <h6 class="mb-0 text-success font-weight-bold" style="position: relative; right: -50px;">{{item.price | currency}}</h6>
+                    </div>
+
+                    <p class="text-muted"><small>{{item.des}}</small></p>
+
+                    <button 
+                    attr.data-item-id={{item.id}}
+                    attr.data-item-name={{item.name}}
+                    attr.data-item-price={{item.price}}
+                    
+                    attr.data-item-url="https://learncodeonline.in"
+                    attr.data-item-description={{item.des}}
+                    
+                    class="btn btn-warning snipcart-add-item"
+                    >Join Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-modular [heading]="team" [img]='img' [url]='url'></app-modular>

@@ -1,0 +1,21 @@
+.hero-background {
+    background: url('../../assets/bg.png');
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .btn-warning {
+    padding: 8px 35px;
+  }
+  
+  .about-background {
+    background-position: center center;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }

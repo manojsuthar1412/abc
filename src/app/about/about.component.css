@@ -1,0 +1,6 @@
+.bg-image {
+  background-image: url(../../assets/about.png);
+  background-size: cover;
+  min-height: 30vh;
+}
+/*# sourceMappingURL=about.component.css.map */
