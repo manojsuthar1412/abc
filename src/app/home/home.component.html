@@ -6,14 +6,14 @@
 <div class="container">
     <div class="row justify-content-md-around">
         <div *ngFor="let item of Items">
-            <div class="col-12 col-md-12 d-flex my-3">
+            <div class="col-12 col-md-12 d-flex my-3 mx-auto">
                 
                 <img src={{item.img}} alt="course image goes here.." width="200" height="120">
 
-                <div class="flex-grow-1 pl-3">
-                    <div class="d-flex justify-content-sm-between">
+                <div class="flex-grow-1 px-3">
+                    <div class="d-flex justify-content-between">
                         <h6 class="mb-0">{{item.name}}</h6>
-                        <h6 class="mb-0 text-success font-weight-bold" style="position: relative; right: -50px;">{{item.price | currency : "INR"}}</h6>
+                        <h6 class="mb-0 text-success font-weight-bold">{{item.price | currency : "INR"}}</h6>
                     </div>
 
                     <p class="text-muted"><small>{{item.des}}</small></p>
